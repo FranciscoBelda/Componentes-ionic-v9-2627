@@ -1,8 +1,8 @@
 {
   "name": "02-componentes",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Francisco Belda",
+  "homepage": "https://www.youtube.com/@franciscobelda",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -27,6 +27,7 @@
     "@ionic/angular": "^9.0.0",
     "ionicons": "^8.1.0",
     "rxjs": "~7.8.0",
+    "swiper": "^14.3.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -43,5 +44,5 @@
     "typescript-eslint": "^8.61.0",
     "vitest": "^4.0.8"
   },
-  "description": "An Ionic project"
+  "description": "Revisión con ejemplos de los componentes de Ionic."
 }

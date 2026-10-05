@@ -1,11 +1,18 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular';
+import {addIcons} from "ionicons";
+import {albums, americanFootball, beaker, car, card, grid, logoAppleAppstore} from "ionicons/icons";
+import {MenuComponent} from "./components/menu/menu.component";
+import {register} from "swiper/element/bundle";
+register();
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  imports: [IonApp, IonRouterOutlet],
+  imports: [IonApp, IonRouterOutlet, MenuComponent],
 })
 export class AppComponent {
-  constructor() {}
+  constructor() {
+    addIcons({card, beaker, americanFootball, grid, logoAppleAppstore, car, albums});
+  }
 }

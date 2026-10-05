@@ -1,0 +1,59 @@
+<app-header titulo="Cards"/>
+
+<ion-content class="ion-padding">
+
+  <h2>Card normal</h2>
+  <ion-card mode="ios" color="primary">
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at, autem pariatur rerum similique tenetur
+      voluptatem?
+      Aliquid culpa distinctio est fugiat impedit ipsam, iste itaque iusto
+      laboriosam nulla quibusdam soluta?
+    </ion-card-content>
+  </ion-card>
+
+  <h2>Card con marcador</h2>
+  <ion-card>
+    <ion-item color="primary">
+      <ion-icon color="light" slot="start" name="pin"></ion-icon>
+      <ion-icon color="light" slot="end" name="card"></ion-icon>
+      <ion-label>Marcador</ion-label>
+    </ion-item>
+    <ion-card-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi cumque cupiditate
+      ea expedita odit officiis quam, soluta vero voluptas.
+      Consequuntur dolores eum ex fugit incidunt ipsa perferendis quo sed!
+    </ion-card-content>
+  </ion-card>
+
+  <h2>Card con Imagen</h2>
+  <ion-card>
+    <ion-card-header color="danger">
+      <ion-card-title>Título</ion-card-title>
+    </ion-card-header>
+    <img src="assets/shapes.svg" alt="...">
+    <ion-card-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolor,
+      doloremque doloribus eaque est et eveniet fuga
+      ipsa molestias neque pariatur perspiciatis porro quas rerum suscipit tempora ullam ut, velit.
+    </ion-card-content>
+  </ion-card>
+
+  <h2>Card personalizada</h2>
+  <ion-card class="bg-card">
+    <ion-card-header>
+      <ion-card-title class="bg-card-title">Título</ion-card-title>
+      <ion-card-subtitle class="bg-card-subtitle">Subtítulo</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis excepturi
+      facere facilis fugit maxime, nemo non obcaecati quis voluptas.
+      Dicta ex illo itaque nemo numquam quaerat quibusdam repellat soluta.
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,66 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center ion-text-capitalize">Avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-toggle menu="primer-menu">
+        <ion-button>
+          <ion-avatar>
+            <img loading="lazy" src="https://cdn-icons-png.flaticon.com/512/1079/1079176.png" alt="...">
+          </ion-avatar>
+        </ion-button>
+      </ion-menu-toggle>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+
+  <h2>Chips</h2>
+  @for (i of [1,2,3,4,5,6,7,8]; track i){
+    <ion-chip color="tertiary">
+      <ion-avatar>
+        <img src="/assets/images/chibi_luffy.jpg" alt="...">
+      </ion-avatar>
+      <ion-label>Chibi</ion-label>
+    </ion-chip>
+  }
+
+  <h2>Avatar</h2>
+  <ion-list>
+    @for (i of [1,1,1,1];track $index){
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="/assets/images/chibi_luffy.jpg" alt="...">
+        </ion-avatar>
+        <ion-label>Chibi Start</ion-label>
+      </ion-item>
+    }
+  </ion-list>
+  <ion-list>
+    @for (i of [1,1,1,1];track $index){
+      <ion-item>
+        <ion-avatar slot="end">
+          <img src="/assets/images/chibi_luffy.jpg" alt="...">
+        </ion-avatar>
+        <ion-label>Chibi End</ion-label>
+      </ion-item>
+    }
+  </ion-list>
+
+  <ion-list>
+    @for (i of [1,1,1,1];track $index){
+      <ion-item>
+        <ion-thumbnail slot="end">
+          <img src="/assets/images/chibi_luffy.jpg" alt="...">
+        </ion-thumbnail>
+        <ion-label>Chibi End</ion-label>
+      </ion-item>
+    }
+  </ion-list>
+
+
+</ion-content>
