@@ -18,7 +18,7 @@ import {caretForwardCircle, shareSocial, trash, close, heart} from "ionicons/ico
   selector: 'app-action-sheet',
   templateUrl: './action-sheet.page.html',
   styleUrls: ['./action-sheet.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonButton, IonActionSheet]
+  imports: [IonContent, CommonModule, FormsModule, HeaderComponent, IonButton, IonActionSheet]
 })
 export class ActionSheetPage implements OnInit {
   aSButtons: ActionSheetButton[] = [

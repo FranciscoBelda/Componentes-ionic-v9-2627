@@ -38,4 +38,24 @@ export const routes: Routes = [
     path: 'slides',
     loadComponent: () => import('./pages/slides/slides.page').then( m => m.SlidesPage)
   },
+  {
+    path: 'slides2',
+    loadComponent: () => import('./pages/slides2/slides2.page').then( m => m.Slides2Page)
+  },
+  {
+    path: 'list',
+    loadComponent: () => import('./pages/list/list.page').then( m => m.ListPage)
+  },
+  {
+    path: 'infinite-scroll',
+    loadComponent: () => import('./pages/infinite-scroll/infinite-scroll.page').then( m => m.InfiniteScrollPage)
+  },
+  {
+    path: 'infinite2',
+    loadComponent: () => import('./pages/infinite2/infinite2.page').then( m => m.Infinite2Page)
+  },
+  {
+    path: 'modal',
+    loadComponent: () => import('./pages/modal/modal.page').then( m => m.ModalPage)
+  },
 ];

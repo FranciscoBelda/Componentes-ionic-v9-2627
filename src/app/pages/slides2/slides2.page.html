@@ -1,0 +1,18 @@
+<app-header titulo="Slides 2"/>
+
+<ion-content class="ion-padding">
+
+  <swiper-container [slidesPerView]="4.5">
+    @for (a of ['Chibi1','Chibi2','Chibi3','Chibi4','Chibi5','Chibi6']; track $index){
+      <swiper-slide (click)="swiperClick($event, a)">
+        <ion-avatar class="ion-avatar">
+          <img src="/assets/images/chibi_luffy.jpg" alt="...">
+        </ion-avatar>
+        <ion-label><p class="ion-text-center">{{a}}</p></ion-label>
+      </swiper-slide>
+    }
+  </swiper-container>
+
+  <h2>Página de Slides</h2>
+  <h4>Bla bla bla ...</h4>
+</ion-content>

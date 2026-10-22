@@ -4,7 +4,7 @@ import {
   IonBackButton,
   IonButton,
   IonButtons,
-  IonHeader, IonImg,
+  IonHeader,
   IonMenuToggle,
   IonTitle,
   IonToolbar
@@ -22,8 +22,7 @@ import {
     IonBackButton,
     IonMenuToggle,
     IonButton,
-    IonAvatar,
-    IonImg
+    IonAvatar
   ],
 })
 export class HeaderComponent  implements OnInit {

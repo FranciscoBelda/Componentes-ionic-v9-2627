@@ -17,7 +17,7 @@ import {HeaderComponent} from "../../components/header/header.component";
   selector: 'app-alert',
   templateUrl: './alert.page.html',
   styleUrls: ['./alert.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonButton, IonAlert]
+  imports: [IonContent, CommonModule, FormsModule, HeaderComponent, IonButton, IonAlert]
 })
 export class AlertPage implements OnInit {
   titulo = signal<string>("");

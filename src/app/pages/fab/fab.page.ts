@@ -20,7 +20,7 @@ import {add, logoFacebook, logoGithub, logoGoogle, logoInstagram, logoTiktok, lo
   selector: 'app-fab',
   templateUrl: './fab.page.html',
   styleUrls: ['./fab.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonList, IonItem, IonLabel, IonFab, IonFabButton, IonIcon, IonFabList, IonFooter]
+  imports: [IonContent, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonList, IonItem, IonLabel, IonFab, IonFabButton, IonIcon, IonFabList, IonFooter]
 })
 export class FabPage implements OnInit {
   datos = Array(100);

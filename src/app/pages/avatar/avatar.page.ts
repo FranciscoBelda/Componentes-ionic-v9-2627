@@ -17,7 +17,7 @@ import {HeaderComponent} from "../../components/header/header.component";
   selector: 'app-avatar',
   templateUrl: './avatar.page.html',
   styleUrls: ['./avatar.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonAvatar, IonBackButton, IonButton, IonButtons, IonMenuToggle, IonChip, IonLabel, IonList, IonItem, IonThumbnail]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, IonAvatar, IonBackButton, IonButton, IonButtons, IonMenuToggle, IonChip, IonLabel, IonList, IonItem, IonThumbnail]
 })
 export class AvatarPage implements OnInit {
 

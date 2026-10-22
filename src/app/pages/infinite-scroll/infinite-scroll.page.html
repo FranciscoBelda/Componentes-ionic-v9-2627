@@ -1,0 +1,15 @@
+<app-header titulo="Infi"/>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    @for (item of miArray(); track $index){
+      <ion-item>
+        Item {{$index}}
+      </ion-item>
+    }
+  </ion-list>
+
+<ion-infinite-scroll threshold="300"  (ionInfinite)="loadMore($event)">
+  <ion-infinite-scroll-content loadingSpinner="dots" loadingText="Cargando..."></ion-infinite-scroll-content>
+</ion-infinite-scroll>
+</ion-content>

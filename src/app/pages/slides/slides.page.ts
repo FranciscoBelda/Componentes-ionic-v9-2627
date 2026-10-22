@@ -18,7 +18,7 @@ import {HeaderComponent} from "../../components/header/header.component";
   templateUrl: './slides.page.html',
   styleUrls: ['./slides.page.scss'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonCard, IonCardHeader, IonCardTitle, IonCardContent]
+  imports: [IonContent, CommonModule, FormsModule, HeaderComponent, IonCard, IonCardHeader, IonCardTitle, IonCardContent]
 })
 export class SlidesPage implements OnInit {
   slides:{img: string; titulo: string; desc: string;}[]=[

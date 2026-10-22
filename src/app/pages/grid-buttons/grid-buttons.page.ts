@@ -20,7 +20,7 @@ import {RouterLink} from "@angular/router";
   selector: 'app-grid-buttons',
   templateUrl: './grid-buttons.page.html',
   styleUrls: ['./grid-buttons.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, HeaderComponent, IonButtons, IonBackButton, IonButton, IonIcon, IonGrid, IonRow, IonCol, RouterLink, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, IonButtons, IonBackButton, IonButton, IonIcon, IonGrid, IonRow, IonCol, RouterLink, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent]
 })
 export class GridButtonsPage implements OnInit {
 
